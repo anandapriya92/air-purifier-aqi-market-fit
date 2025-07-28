@@ -146,9 +146,9 @@ Special thanks to:
 ## 📢 Author
 
 **Anandapriya M.**  
-*Data Analyst | Power BI Enthusiast | PhD Researcher in Sustainable Operations*  
-🔗 LinkedIn: [Your LinkedIn URL]  
-📬 Email: [Your Email]
+*Data Analyst | Power BI Enthusiast | Data-driven Decision Support*  
+🔗 LinkedIn: https://www.linkedin.com/in/anandapriya-mariappan-79b56276/  
+📬 Email: nndpr61@gmail.com
 
 ---
 
