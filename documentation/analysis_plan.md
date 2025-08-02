@@ -136,6 +136,25 @@ This document outlines how each **primary and secondary research question** was 
 - **Web Research** – For secondary insights
 
 ---
+# Requirements-to-Dashboard Mapping
+
+This document maps the core expectations from the business case and evaluation criteria to the respective report pages in the Power BI dashboard for the **AirPure Innovations - Market Fit & Product Strategy** challenge.
+
+| **Core Expectations from Business Case**                                                                                                                    | **Mapped Dashboard Page & Key Insights**                                                                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Understand India’s air pollution problem**<br>– Where is it worst?<br>– What are the causes?<br>– Who is most impacted?                                | **Page 2: AQI & Health Impact**<br>🔹 Trend of AQI by state and city<br>🔹 Top polluted cities (YOY growth)<br>🔹 Impact by tier and season<br>🔹 Correlation with disease incidence (e.g. respiratory illnesses)                                                 |
+| **2. Evaluate the growth and acceptance of EVs**<br>– Is EV adoption helping improve air quality?<br>– Where is the shift happening?                        | **Page 3: EV Adoption & AQI**<br>🔹 State-wise EV registrations over time<br>🔹 Comparison of AQI vs. EV density<br>🔹 Tier-wise trend analysis of adoption<br>🔹 Policy or regional drivers                                                                      |
+| **3. Estimate the risk hotspots**<br>– Where is the pollution × population risk highest?<br>– What’s the demand potential?                                  | **Page 4: Risk Potential & Demand**<br>🔹 AQI × Population weighted score<br>🔹 Cities with highest health vulnerability<br>🔹 Tier-based market prioritization<br>🔹 High-risk zone map overlays                                                                 |
+| **4. Define product opportunity**<br>– What type of consumers would buy air purifiers?<br>– What features do they value?<br>– What is their ability to pay? | **Page 5: Product Market Fit**<br>🔹 Willingness to pay (from external/secondary research)<br>🔹 Popular feature preference<br>🔹 Pain points from health surveys<br>🔹 Consumer segmentation by income & exposure                                                |
+| **5. Deliver professional storytelling**<br>– Must be crisp, data-backed & easy to navigate<br>– Must be useful for decision-makers                         | **Page 1: Executive Overview**<br>🔹 4 summary widgets linking to all detailed pages:<br> • AQI Risk Timeline<br> • EV vs AQI Visual<br> • Population-AQI Risk Score Map<br> • Consumer Pain Points & Product Demand<br>🔹 Clean design with filter interactivity |
+
+---
+
+✅ This file helps future collaborators, mentors, or evaluators quickly understand how the dashboard fulfills each strategic goal.
+
+📌 Save this in your `docs/` folder of the repository as `requirements_mapping.md`.
+
+Let me know if you'd like a diagram version or embed links to Power BI visuals next!
 
 ## 📦 Deliverables
 - 📁 Dashboard `.pbix` file
