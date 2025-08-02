@@ -150,11 +150,6 @@ This document maps the core expectations from the business case and evaluation c
 
 ---
 
-✅ This file helps future collaborators, mentors, or evaluators quickly understand how the dashboard fulfills each strategic goal.
-
-📌 Save this in your `docs/` folder of the repository as `requirements_mapping.md`.
-
-Let me know if you'd like a diagram version or embed links to Power BI visuals next!
 
 ## 📦 Deliverables
 - 📁 Dashboard `.pbix` file
