@@ -140,15 +140,85 @@ This document outlines how each **primary and secondary research question** was 
 
 This document maps the core expectations from the business case and evaluation criteria to the respective report pages in the Power BI dashboard for the **AirPure Innovations - Market Fit & Product Strategy** challenge.
 
-| **Core Expectations from Business Case**                                                                                                                    | **Mapped Dashboard Page & Key Insights**                                                                                                                                                                                                                          |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Understand India’s air pollution problem**<br>– Where is it worst?<br>– What are the causes?<br>– Who is most impacted?                                | **Page 2: AQI & Health Impact**<br>🔹 Trend of AQI by state and city<br>🔹 Top polluted cities (YOY growth)<br>🔹 Impact by tier and season<br>🔹 Correlation with disease incidence (e.g. respiratory illnesses)                                                 |
-| **2. Evaluate the growth and acceptance of EVs**<br>– Is EV adoption helping improve air quality?<br>– Where is the shift happening?                        | **Page 3: EV Adoption & AQI**<br>🔹 State-wise EV registrations over time<br>🔹 Comparison of AQI vs. EV density<br>🔹 Tier-wise trend analysis of adoption<br>🔹 Policy or regional drivers                                                                      |
-| **3. Estimate the risk hotspots**<br>– Where is the pollution × population risk highest?<br>– What’s the demand potential?                                  | **Page 4: Risk Potential & Demand**<br>🔹 AQI × Population weighted score<br>🔹 Cities with highest health vulnerability<br>🔹 Tier-based market prioritization<br>🔹 High-risk zone map overlays                                                                 |
-| **4. Define product opportunity**<br>– What type of consumers would buy air purifiers?<br>– What features do they value?<br>– What is their ability to pay? | **Page 5: Product Market Fit**<br>🔹 Willingness to pay (from external/secondary research)<br>🔹 Popular feature preference<br>🔹 Pain points from health surveys<br>🔹 Consumer segmentation by income & exposure                                                |
-| **5. Deliver professional storytelling**<br>– Must be crisp, data-backed & easy to navigate<br>– Must be useful for decision-makers                         | **Page 1: Executive Overview**<br>🔹 4 summary widgets linking to all detailed pages:<br> • AQI Risk Timeline<br> • EV vs AQI Visual<br> • Population-AQI Risk Score Map<br> • Consumer Pain Points & Product Demand<br>🔹 Clean design with filter interactivity |
 
 ---
+
+### 🔵 **Page 1: National AQI Summary & Hotspot KPIs**
+> **Theme:** High-level KPIs and national risk snapshot
+
+**Includes:**
+- Most polluted city (last 6 months)
+- City with most severe days
+- Highest AQI spike
+- National average AQI
+- MoM% changes for all above
+
+📍 *No business question mapped, but this is foundational context for every other page.*
+
+---
+
+### 🟠 **Page 2: Severity Mapping (City/Time-Based)**
+> **Theme:** Identifying severe regions and temporal pollution patterns
+
+**Mapped Questions:**
+- Primary Q1: Top 5 / Bottom 5 AQI cities (Dec 2024 – May 2025)
+- Primary Q3: AQI on weekdays vs weekends – metro cities
+- Primary Q4: Worst AQI months across states
+- Primary Q5: AQI category days – e.g., Bengaluru
+
+**Visuals:** Column charts, matrix tables, line charts with tooltips
+
+---
+
+### 🟢 **Page 3: Health Impact & Disease Mapping**
+> **Theme:** Health outcomes linked with poor air quality
+
+**Mapped Questions:**
+- Primary Q6: Top 2 diseases per state with AQI
+- Secondary Q1: Most affected age groups by city
+
+**Containers & Add-ons:**
+- Disease matrix + AQI average
+- Stacked column (age group)
+- Health burden index map
+- Pediatric asthma vs AQI trend
+
+🧠 *Focus: Support R&D with medical relevance and regional differences.*
+
+---
+
+### 🔵 **Page 4: Demand Triggers & Market Behavior**
+> **Theme:** Understanding consumer behavior, EV patterns, and awareness
+
+**Mapped Questions:**
+- Primary Q7: EV adoption vs AQI
+- Secondary Q3: Population vs AQI
+- Secondary Q4: AQI awareness + health understanding
+
+**Visuals:**
+- Correlation charts
+- Pie/column for awareness distribution
+- KPI: Search spike behavior during AQI events
+
+---
+
+### 🔴 **Page 5: Product Strategy & Market Fit**
+> **Theme:** Turning insights into product + market prioritization
+
+**Mapped Questions:**
+- Primary Q2: Top/Bottom pollutants in South India
+- Secondary Q2: Competitor benchmarking
+- Secondary Q5: Govt policies & pollution reduction
+
+**Deliverables:**
+- City Risk Score matrix
+- Competitor Feature Gap Table
+- Suggested product features (PM2.5 sensor, smart sync, etc.)
+- Policy impact vs AQI trend
+
+---
+
+✅ This report structure ensures every question is visually backed by actionable insights and targeted toward AirPure’s product, strategy, and R&D direction.
 
 
 ## 📦 Deliverables
